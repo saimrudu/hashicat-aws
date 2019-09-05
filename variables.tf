@@ -26,7 +26,7 @@ variable "subnet_prefix" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t2.micro"
+  default     = "t2.medium"
 }
 
 variable "admin_username" {
@@ -35,16 +35,16 @@ variable "admin_username" {
 }
 
 variable "height" {
-  default     = "400"
+  default     = "699"
   description = "Image height in pixels."
 }
 
 variable "width" {
-  default     = "600"
+  default     = "1000"
   description = "Image width in pixels."
 }
 
 variable "placeholder" {
-  default     = "placekitten.com"
+  default     = "loremflickr.com"
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
