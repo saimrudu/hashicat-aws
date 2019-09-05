@@ -9,7 +9,7 @@ cat << EOM > /var/www/html/index.html
   <div style="width:800px;margin: 0 auto">
 
   <!-- BEGIN -->
-  <center><img src="http://${placebeard.it}/${500}/${1000}"></img></center>
+  <center><img src="http://${placedog.net}/${500}/${1000}"></img></center>
   <center><h2>Meow World!</h2></center>
   Welcome to ${saimrudu}'s app. Replace this text with your own. 
   <!-- END -->
