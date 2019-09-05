@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${placedog.net}/${100}/${1000}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${saimrudu}'s app. Replace this text with your own. 
+  Welcome to ${saimrudu}'s app. This is Sai's Text! 
   <!-- END -->
   
   </div>
